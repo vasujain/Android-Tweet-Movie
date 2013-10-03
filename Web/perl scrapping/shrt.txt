@@ -1,0 +1,349 @@
+                                    <div class="theater">
+                                        <h2>
+
+<a href="/showtimes/university-village-3" >University Village 3</a></h2>
+                                        <div class="address">
+                                            <i>3323 South Hoover Street, Los Angeles CA 90007 | (213) 748-6321</i>
+                                        </div>
+                                    </div>
+
+                                    
+                                        
+                                        
+                                            
+                                                
+                                                    
+                                                        <div class="mtitle">
+                                                            
+
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/movie/dream-house-2011"  title="Dream House" onmouseover="mB(event, 771204354);"  >Dream House</a>
+                                                            <span>(PG-13 , 1 hr. 31 min.)</span>
+                                                        </div>
+                                                    
+                                                    
+                                                
+
+                                                <div class="times">
+                                                    
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        1:00 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        3:20 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        5:40 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        8:00 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        10:20 PM
+                                                                    
+                                                                
+                                                            
+                                                        
+                                                        
+                                                    
+                                                </div>
+                                            
+                                                
+                                                    
+                                                        <div class="mtitle">
+                                                            
+
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/movie/real-steel"  title="Real Steel" onmouseover="mB(event, 770858177);"  >Real Steel</a>
+                                                            <span>(PG-13 , 2 hr. 6 min.)</span>
+                                                        </div>
+                                                    
+                                                    
+                                                
+
+                                                <div class="times">
+                                                    
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        11:00 AM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        1:45 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        4:30 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        7:15 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        10:00 PM
+                                                                    
+                                                                
+                                                            
+                                                        
+                                                        
+                                                    
+                                                </div>
+                                            
+                                                
+                                                    
+                                                        <div class="mtitle">
+                                                            
+
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/movie/the-thing-2011"  title="The Thing" onmouseover="mB(event, 771202933);"  >The Thing</a>
+                                                            <span>(R , 1 hr. 42 min.)</span>
+                                                        </div>
+                                                    
+                                                    
+                                                
+
+                                                <div class="times">
+                                                    
+                                                        
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        12:00 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        2:30 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        5:00 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        7:30 PM,
+                                                                    
+                                                                
+                                                            
+                                                                
+                                                                    
+                                                                    
+                                                                        10:00 PM
+                                                                    
+                                                                
+                                                            
+                                                        
+                                                        
+                                                    
+                                                </div>
+                                            
+                                        
+                                    
+                                

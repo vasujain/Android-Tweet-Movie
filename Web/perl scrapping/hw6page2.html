@@ -1,0 +1,46 @@
+<html>
+<head>
+	<script type="text/javascript" src="inputcheck.js"></script>	
+    <style type="text/css">
+        .header{color:blue;text-align:center;font-size:xx-large;font-weight:bold}				
+		.mid{align:center}
+    </style>
+</head>
+<body>
+<div class="header">Establish your account</div>
+</br>
+<form name=fmain method="POST" action="/cgi-bin/test.pl">
+<table align="center">
+<tr><td colspan="2"><hr></td></tr>
+<tr><td>First Name </td><td><input type=text name=fname id=fname size=64></td></tr>
+<tr><td>Middle Initial</td><td><input type=text name=mname size=64></td></tr>
+<tr><td>Last Name </td><td><input type=text name=lname size=64></td></tr>
+<tr><td>Address </td><td><input type=text name=addr size=64></td></tr>
+<tr><td>City </td><td><input type=text name=city size=64></td></tr>
+<tr><td>State</td><td> 	
+	<select name=state>
+	<option name="state" value="AL">AL</option>	<option name="state" value="AK">AK</option>	<option name="state" value="AZ">AZ</option>	<option name="state" value="AR">AR</option>
+	<option name="state" value="CA">CA</option>	<option name="state" value="CO">CO</option>	<option name="state" value="CT">CT</option>	<option name="state" value="DE">DE</option>
+	<option name="state" value="DC">DC</option>	<option name="state" value="FL">FL</option>	<option name="state" value="GA">GA</option>	<option name="state" value="HI">HI</option>
+	<option name="state" value="ID">ID</option>	<option name="state" value="IL">IL</option>	<option name="state" value="IN">IN</option>	<option name="state" value="IA">IA</option>
+	<option name="state" value="KS">KS</option>	<option name="state" value="KY">KY</option>	<option name="state" value="LA">LA</option>	<option name="state" value="ME">ME</option>
+	<option name="state" value="MD">MD</option>	<option name="state" value="MA">MA</option>	<option name="state" value="MI">MI</option>	<option name="state" value="MN">MN</option>
+	<option name="state" value="MS">MS</option>	<option name="state" value="MO">MO</option>	<option name="state" value="MT">MT</option>	<option name="state" value="NE">NE</option>
+	<option name="state" value="NV">NV</option>	<option name="state" value="NH">NH</option>	<option name="state" value="NJ">NJ</option>	<option name="state" value="NM">NM</option>
+	<option name="state" value="NY">NY</option>	<option name="state" value="NC">NC</option>	<option name="state" value="ND">ND</option>	<option name="state" value="OH">OH</option>
+	<option name="state" value="OK">OK</option>	<option name="state" value="OR">OR</option>	<option name="state" value="PA">PA</option>	<option name="state" value="RI">RI</option>
+	<option name="state" value="SC">SC</option>	<option name="state" value="SD">SD</option>	<option name="state" value="TN">TN</option>	<option name="state" value="TX">TX</option>
+	<option name="state" value="UT">UT</option>	<option name="state" value="VT">VT</option>	<option name="state" value="VA">VA</option>	<option name="state" value="WA">WA</option>
+	<option name="state" value="WV">WV</option>	<option name="state" value="WI">WI</option>	<option name="state" value="WY">WY</option>
+	</select></td></tr>
+<tr><td>Zip code </td><td><input type=text name=zip size=64></td></tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><td>Login Name </td><td><input type=text name=login size=64></tr>
+<tr><td>Password </td><td><input type=password name=pwd1 size=64></tr>
+<tr><td>Confirm Password </td><td><input type=password name=pwd2 size=64></tr>
+<tr><td align="center" colspan="2"><input type=submit value=SubmitYourAccountInformation onClick="return testInput(this.form)"></td> </tr>
+</table>
+</form>
+<!--/br></br></br></br><center><a href="http://cs-server.usc.edu:17418/hw6"><img src="home.jpg" title="Go back to Home Page" height=64 width=64></a></center-->
+</body>
+</html>

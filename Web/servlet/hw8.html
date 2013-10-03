@@ -1,0 +1,78 @@
+<html>
+<head>
+<script type="text/javascript">
+var result=null;
+function validateInput(zip)
+{	
+	var zippy = document.getElementById("zip");
+	var url = "http://cs-server.usc.edu:17419/examples/servlet/HelloWorldExample";
+	if ((zippy.value) == "")
+	{	alert("Zip Code can not be blank. Please enter a value.");return false;	}
+	if(!(parseInt(zippy.value)))
+	{	alert("Zip Code must have only Digits. Please enter a proper value.");return false;}		
+	if (parseInt(zippy.value) < 10000)
+	{	alert("Zip Code must have only 5 Digits. Please enter a proper value.");return false;}	
+	if (parseInt(zippy.value) > 99999)
+	{	alert("Zip Code must have only 5 Digits. Please enter a proper value.");return false;}		
+	else
+		{
+			var xmlhttp=new XMLHttpRequest();
+			var url=url+'?search='+zippy.value;
+			xmlhttp.open("GET",url,true);
+			document.getElementById('myDiv').innerHTML="<table align='center'><tr><td class='center'><font color='red' size=5>Result set is Loading...Please wait !!</font></td></tr></table>";
+
+			xmlhttp.onreadystatechange=function() 
+			{
+				if (xmlhttp.readyState==4) 
+				{				
+				var JSONstring=xmlhttp.responseText;
+					if(JSONstring=="Movies Not found")
+					{
+					document.getElementById('myDiv').innerHTML="<font size=5>No Movies Found for this Area</font>";
+					}
+					else
+					{
+					result=JSON.parse(JSONstring);
+					var total=result.movies.total;
+					display(total);
+					}	
+				}
+			}
+			xmlhttp.send(null);
+		}
+}
+
+function display(total)
+{
+	var displayText = "<table align='center' border='1px'>";
+	displayText += "<tr><th>Cover</th><th>Title</th><th>Movie Duration</th><th>Showtime</th><th>Tweet</th></tr>";
+	for(var i=0; i<total; i++)
+	{
+		(result.movies.movie[i].theatre);
+		displayText += "<td><img src=\"" + result.movies.movie[i].cover + "\"/></td><td>"+result.movies.movie[i].tile+"</td><td>"+result.movies.movie[i].MovieDuration+"</td><td>"+result.movies.movie[i].showtime+"</td>";	
+		
+		displayText += "<td><div><iframe allowtransparency='true' frameborder='0' scrolling='no' src='https://platform.twitter.com/widgets/tweet_button.html#_=1320633505439&count=vertical&id=twitter_tweet_button_6&lang=en&original_referer=http://cs-server.usc.edu:17419/hw8&text=I am planning to watch #"+ escape(result.movies.movie[i].tile) +" @ "+ (result.movies.movie[i].theatre) +"...&url="+ result.movies.movie[i].url +"' style='width:55px; height:62px;'></iframe></div></td></tr>";	
+		
+	}
+	displayText += "</table>";	
+	document.getElementById('myDiv').innerHTML=displayText;  <!--Blank DIV has been assigned data here -->
+}
+
+</script>
+</head>
+<body>
+
+<center>
+<font size=6><b>Tweet your Movie !!</b></font>
+</br></br>
+Please Enter the ZIP code to find movies Screening near you</br></br>
+<!--input type="text" id="zip" name="zip" placeholder="Add Zip code here" size=20 maxlength=5/-->
+<input type="text" id="zip" name="zip" size=15 maxlength=5/>
+<input type="button" id="click" value="Submit" onclick="return validateInput();"/>
+</br></br>
+<div id="myDiv"></div> <!--a Blank DIV that would be filled up by data later on -->
+
+</br>
+</center>
+<NOSCRIPT></body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vj"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET" /> 
+        
+    <application
+        android:icon="@drawable/ic_main"
+        android:label="Tweet your Movie" >
+        
+        <activity android:label="Tweet your Movie" android:name=".FinalActivity" android:launchMode="singleTask">
+			
+			<intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="twitterapp" android:host="callback" />
+			</intent-filter>
+			
+        </activity>
+        
+            
+      	<activity class=".SearchMovie" android:label="Search Zip Code for List of Theatres" android:name=".SearchMovie" >
+      	</activity>
+      	
+      	<activity class=".LoadingScreenActivity" android:label="Loading" android:name=".LoadingScreenActivity" >
+      	</activity>
+      	    
+      
+	   <activity class=".DisplayMovies" android:label="List of Theatres in your Zip Code" android:name=".DisplayMovies" >
+       </activity>
+       
+    </application>
+
+</manifest>

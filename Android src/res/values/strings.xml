@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FinalActivity!</string>
+    <string name="app_name">Final</string>
+    <string name="twitterLogin">Login to Twitter</string>
+    <string name="searchMovies">Search Movies for Zip Code</string>
+    <string name="finalOne">This is final one buddy</string>
+    <string name="lblZipCode">Enter the US Zip Code to search Movies</string>
+    <string name="tweet">Tweet</string>
+
+</resources>

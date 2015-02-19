@@ -6,7 +6,7 @@
       <fname>Ayush</fname>
       <mname></mname>
       <lname>Sharma</lname>
-      <address>2353 Portland Street Apt 3</address>
+      <address>Portland Street</address>
       <city>Los Angeles</city>
       <state>CA</state>
       <zip>90266</zip>
@@ -18,35 +18,12 @@
       <fname>Vasu</fname>
       <mname></mname>
       <lname>Jain</lname>
-      <address>2353 Portland Street Apt 3</address>
+      <address>Portland Street </address>
       <city>Los Angeles</city>
       <state>CA</state>
       <zip>90007</zip>
 </user>
 
-<user>
-      <login>manank</login>
-      <pwd1>m</pwd1>
-      <fname>Manan</fname>
-      <mname></mname>
-      <lname>K</lname>
-      <address>Syracuse</address>
-      <city>NYC</city>
-      <state>NY</state>
-      <zip>80001</zip>
-</user>
-
-<user>
-      <login>kkaur</login>
-      <pwd1>k</pwd1>
-      <fname>Kushal</fname>
-      <mname></mname>
-      <lname>Kaur</lname>
-      <address>Portland #19</address>
-      <city>Los Angeles</city>
-      <state>CA</state>
-      <zip>90080</zip>
-</user>
 
 <user>
       <login>vjain</login>
@@ -60,15 +37,5 @@
       <zip>12083</zip>
 </user>
 
-<user>
-      <login>mkhan</login>
-      <pwd1>m</pwd1>
-      <fname>Muqeet</fname>
-      <mname></mname>
-      <lname>Khan</lname>
-      <address>165 E Ontario St </address>
-      <city>Chicago</city>
-      <state>IL</state>
-      <zip>60611</zip>
-</user>
+
 </userroot>
